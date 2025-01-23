@@ -21,7 +21,7 @@
     "lang": "en-GB",
     "description": "Answer questions to jump from obstacles",
     "name": "Trivia Jumper",
-    "start_url": "http://127.0.0.1:3000/Index.html",
+    "start_url": "https://sanadeghat.github.io/testjumptrivia/",
     "screenshots": [
         {
             "src": "screenshots/Screenshot-h.jpg",
