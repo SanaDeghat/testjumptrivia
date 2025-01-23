@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinosaur Game</title>
+    <link rel="manifest" href="manifest.json" >
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body id="body">
+    <div id="screen-remover">
+    <div id="start-screen">
+        <h1>Trivia Game</h1>
+        <div>
+            <label for="category">Category:</label>
+            <select id="category"></select>
+        </div>
+        
+        <button id="start-button">Start Game</button>
+        <button id="installButton" style="display: none">install App</button>
+        
+    </div></div>
+
+    <div id="game-screen" class="game-container" hidden>
+        <div id="question-container">
+            <p id="question">Fetching question...</p>
+            <img id="image" hidden>
+            <div id="answers"></div>
+        </div>
+        
+
+        <div class="ground"></div>
+        <div class="dino" id="dino"></div>
+        <div class="obstacle" id="obstacle"></div>
+        <div class="game-over" id="gameOver" hidden>Game Over</div>
+    </div>
+    
+<script src="js2.js" ></script>
+</body>
+
+</html>

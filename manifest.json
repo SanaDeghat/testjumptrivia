@@ -1,0 +1,43 @@
+{
+    "theme_color": "#e9b44d",
+    "background_color": "#3dc4a1",
+    "icons": [
+        {
+            "purpose": "maskable",
+            "sizes": "512x512",
+            "src": "icons/icon512_maskable.png",
+            "type": "image/png"
+        },
+        {
+            "purpose": "any",
+            "sizes": "512x512",
+            "src": "icons/icon512_rounded.png",
+            "type": "image/png"
+        }
+    ],
+    "orientation": "landscape",
+    "display": "standalone",
+    "dir": "auto",
+    "lang": "en-GB",
+    "description": "Answer questions to jump from obstacles",
+    "name": "Trivia Jumper",
+    "start_url": "http://127.0.0.1:3000/Index.html",
+    "screenshots": [
+        {
+            "src": "screenshots/Screenshot-h.jpg",
+            "sizes": "1468x826",
+            "type": "image/jpeg",
+            "description": "Horizontal view of Trivia Jumper gameplay",
+            "form_factor": "wide",
+         "purpose": "any"
+
+        },
+        {
+            "src": "screenshots/Screenshot-v.jpg",
+            "sizes": "739x817",
+            "type": "image/jpeg",
+            "purpose": "any",
+            "description": "Vertical view of Trivia Jumper gameplay"
+        }
+    ]
+}
